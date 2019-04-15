@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>SimpleWhitelist.net</AssemblyName>
+    <RootNamespace>SimpleWhitelist</RootNamespace>
+    <Authors>Dustin Slane</Authors>
+    <Product>SimpleWhitelist</Product>
+    <Description>A super simple steamid-based whitelist resource for FiveM servers.</Description>
+    <Copyright>2019 - Dustin Slane</Copyright>
+    <PackageProjectUrl>https://github.com/dustinslane/SimpleWhitelist</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dustinslane/SimpleWhitelist</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageId>nl.dustinslane.SimpleWhitelist</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CitizenFX.Core">
+      <HintPath>lib\CitizenFX.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
