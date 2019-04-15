@@ -1,5 +1,5 @@
 # SimpleWhitelist
-A super simple steamid-based whitelist resource that you can use to keep random people off of your FiveM server.
+A super simple steamid-based whitelist resource that you can use to keep random people off of your FiveM server. No database, no fiddling with files and no restarting the resource required. All from the server console or Rcon.
 
 ### Who is this for?
 This is great for when you are running a small server for your friends or just need a server to test something on, and you don't want outsiders on it. 
