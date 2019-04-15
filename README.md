@@ -25,6 +25,11 @@ Show Id's allowed on the server\
 Show a help message in the console\
 `whitelist`
 
+### How to use it
+Download the latest release from the [releases page on this repository](https://github.com/dustinslane/SimpleWhitelist/releases/latest).
+
+ - Unzip into your resources folder.
+ - Add `start simplewhitelist` to your server cfg.
 
 ### Requirements
 Requires FXServer 1145 or later due to using .net standard 2.0\
