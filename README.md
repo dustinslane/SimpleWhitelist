@@ -9,7 +9,7 @@ There are other scripts/classes out there that basically do the same, but all of
 Also this is written in C#, I don't think I have seen one written in C#.
 
 ### How does it work?
-This resource lets you add/remove people through RCON so you can add/remove on the fly, and saves it in plain text on your server.
+This resource lets you add/remove people through RCON so you can add/remove on the fly, and saves it in plain text on your server. It requires Steam32 ids - just have someone connect to the server and rejected. You can then copy their steam id and allow it.
 
 ### Commands
 
